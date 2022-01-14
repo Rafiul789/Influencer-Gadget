@@ -1,0 +1,74 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Lora:wght@500&family=Noto+Serif:ital@1&family=Poppins:wght@400;500;600;700&family=Raleway:wght@500;600;700&display=swap');
+
+/* ------
+based styles
+---------- */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------
+ navigation-styles-------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+/* ------------ 
+Introduction---------- */
+
+.introduction {
+    display: flex;
+    align-items: center;
+}
+
+.intro-heading {
+    width: 100%;
+}
+
+.intro-heading h1 {
+    font-size: 52px;
+}
+
+.button-style {
+    background-color: #E02C6D;
+    color: whitesmoke;
+    padding: 10px, 25px, 10px, 24px;
+    border-radius: 15px;
+}
+
+
+/* -----brand
+-------- */
+
+.brand {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 100px;
+}
