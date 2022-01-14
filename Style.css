@@ -6,11 +6,10 @@
 based styles
 ---------- */
 
-
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
 
 .body {
     font-family: 'Poppins', sans-serif;
@@ -77,6 +76,18 @@ Introduction---------- */
 
 /*-----------
  Popular-collection------- */
+
+.products-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+
+.products {
+    padding: 20px;
+    margin: 20px 10px;
+    box-shadow: 10px 5px 5px rgb(214, 205, 205);
+}
 
 #product-heading {
     font-size: 38px;
