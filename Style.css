@@ -71,8 +71,35 @@ Introduction---------- */
     align-items: center;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 
 /*-----------
  Popular-collection------- */
+
+#product-heading {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.product-description {
+    display: flex;
+    align-items: center;
+}
+
+#product-available {
+    color: gray;
+}
+
+.product-rating i {
+    color: #FB8200;
+    padding: 5x;
+    /* display: grid;
+    grid-template-rows: repeat(2, 1fr); */
+}
+
+.product-rating {
+    padding: 5px;
+}
