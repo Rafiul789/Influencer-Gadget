@@ -6,13 +6,18 @@
 based styles
 ---------- */
 
-* {
+
+/* * {
     margin: 0 auto;
     padding: 0 auto;
-}
+} */
 
 .body {
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    align-items: center;
 }
 
 
@@ -20,6 +25,8 @@ based styles
  navigation-styles-------- */
 
 nav {
+    background-color: #0A0826;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,16 +48,27 @@ ul {
 Introduction---------- */
 
 .introduction {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 400px;
 }
 
 .intro-heading {
-    width: 100%;
+    margin-top: 50px;
+    /* width: 100%; */
 }
 
 .intro-heading h1 {
     font-size: 52px;
+}
+
+.intro-heading p {
+    font-size: 20px;
+}
+
+.intro-image {
+    margin-top: 50px;
+    /* width: 100%; */
 }
 
 .button-style {
@@ -114,4 +132,47 @@ Introduction---------- */
 
 .product-rating {
     padding: 5px;
+}
+
+.product-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* 
+---------about section----------
+*/
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-description {
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+/* -----footer
+------ */
+
+footer {
+    margin-top: 50px;
+    background-color: #0A0826;
+    height: 239px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-icon i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.end {
+    padding-top: 30px;
 }
