@@ -6,11 +6,10 @@
 based styles
 ---------- */
 
-
-/* * {
-    margin: 0 auto;
-    padding: 0 auto;
-} */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .body {
     font-family: 'Poppins', sans-serif;
@@ -126,8 +125,6 @@ Introduction---------- */
 .product-rating i {
     color: #FB8200;
     padding: 5x;
-    /* display: grid;
-    grid-template-rows: repeat(2, 1fr); */
 }
 
 .product-rating {
@@ -145,6 +142,7 @@ Introduction---------- */
 */
 
 .about {
+    margin-top: 50px;
     display: flex;
     align-items: center;
 }
@@ -154,6 +152,50 @@ Introduction---------- */
     display: grid;
     align-items: center;
     margin-left: 50px;
+}
+
+
+/* -------Services------ */
+
+.services {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin: 0 auto;
+    width: 200px;
+    padding: 30px;
+    box-shadow: 0 30px 35px rgba(180, 173, 173, 0.2);
+}
+
+.card .card-icon {
+    background-color: #0A0826;
+    ;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    color: #fff;
+}
+
+.card-icon {
+    font-size: 20px;
+}
+
+.card h3 {
+    color: #0A0826;
+    font-size: 25px;
+}
+
+.card p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0A0826;
 }
 
 
